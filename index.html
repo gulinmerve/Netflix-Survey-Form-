@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Netflix Survey for Users">
+    <meta name="keywords" content="Netflix,Survey,Movie Type">
+    <meta name="author" content="Curios-Coders/CW FullStackTeam">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./images/netflix.png" type="image/png">  
+    <style>span {
+        color:red;
+    }
+    </style>
+</head>
+<body>
+<div id="container">
+
+    <h1 id="title">Net<span>Flix</span></h1>
+
+    <h3 id="description">
+        Thank you for signing up at Netflix. Tell us more about yourself.
+    </h3>
+
+    <form id="survey-form" action="result.html"> 
+
+        <div class="box">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" placeholder="enter your name"><br>
+        </div>
+
+        <div class="box">
+            <label for="number">Age</label><br>
+            <input type="number" min="18" max="65" name="age" id="number" placeholder="age"><br>
+        </div>
+
+        <div class="box">
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="enter your Email"><br>
+        </div>
+
+        <div class="box"> 
+            <label for="dropdown">Content type</label><br>
+            <select name="content" id="dropdown">
+                <option value="Series" selected>Series</option>
+                <option value="Movie">Movie</option>   
+            </select><br>
+        </div>       
+
+        <div class="box">
+            <label for="checkbox">Movie type</label><br>
+            <input type="checkbox" name="movie type" value="comedy">Comedy<br>
+            <input type="checkbox" name="movie type" value="action">Action<br>
+            <input type="checkbox" name="movie type" value="romance" checked>Romance<br>
+        </div>
+
+        <div class="box">
+            <label for="radio">Gender</label><br>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+        </div>
+
+        <div class="box">
+            <label for="textarea">Feed back</label><br>
+            <textarea name="feedback" id="text-area" rows="5" cols="50" placeholder="Any comment"></textarea><br>
+        </div>
+        
+        <input type="submit" id="submit" value="Gönder">
+
+    </form>
+
+</div>
+</body>
+</html>

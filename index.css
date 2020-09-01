@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter|Bowlby+One+SC|Sorts+Mill+Goudy);
+
+/* @import url|string list-of-mediaqueries; */
+
+body {
+background-image: url("./images/SurveyBackground.jpg");
+color: white;
+}
+
+#container {
+    background-color:  rgba(12, 12, 12, 0.3);); 
+    margin: 30px 100px ; 
+}
+/*http://uzmanimakademi.net/css/css-margin-kullanimi margin  üst ve alt 30px sağ ve sol 100 px */
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bowlby One SC", cursive;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+
+/* harfler arası boşluk,https://www.w3schools.com/cssref/pr_text_letter-spacing.asp */
+/* Padding top üstten boşluk default 0 https://www.w3schools.com/cssref/pr_padding-top.asp */
+
+#description {
+    text-align: center;
+    font-size: 23px;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    margin-bottom: 15px;
+}
+
+/* margin-bottom alt boşluk http://uzmanimakademi.net/css/css-margin-kullanimi */
+
+#survey-form {
+    width: 500px;
+    height: auto;
+    background-color: rgba(8, 8, 8, 0.8);
+    margin: auto;
+    padding-top: 10px;
+}
+
+/* padding top: iç üst boşluk http://uzmanimakademi.net/css/css-padding-kullanimi */
+
+
+#name,
+#email,
+#number,
+#dropdown {
+    margin-top: 16px;
+    height: 36px;
+    width: 400px;
+    border: none;
+    padding: 10px;
+}
+
+
+.box {
+    margin-top:20px ;
+    margin-left: 40px;
+}
+
+/* margin-top üst boşluk */
+/* margin-bottom alt boşluk */
+/* margin-left sol boşluk */
+/* margin-right sağ boşluk */
+
+.text-area {
+    margin-top: 10px;
+}
+
+#submit {
+    font-size: larger;
+    margin: 16px 0px 16px 150px;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: white;
+    color: red;
+}
+
+
+/* Font Family https://www.w3.org/Style/Examples/007/fonts.en.html */
